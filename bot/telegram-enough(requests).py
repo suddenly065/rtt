@@ -3,11 +3,11 @@ from time import sleep
 from sms import SendSms
 
 token = "6494155343:AAGeOmiOn6s7gchaRRwkqnxvapSbkVoABbo"
-sahip = "Jrfolu6533_bot"
+sahip = "1285050582"
 
 
 def getUpdate():
-    url = 'https://api.telegram.org/Jrfolu6533_bot{}/getUpdates'.format(6494155343:AAGeOmiOn6s7gchaRRwkqnxvapSbkVoABbo)
+    url = 'https://api.telegram.org/bot6494155343:AAGeOmiOn6s7gchaRRwkqnxvapSbkVoABbo/getUpdates .format(token)
     r = requests.get(url)
     x = 0
     while 1 :
