@@ -7,7 +7,7 @@ sahip = "Jrfolu6533_bot"
 
 
 def getUpdate():
-    url = 'https://api.telegram.org/bot{}/getUpdates'.format(token)
+    url = 'https://api.telegram.org/Jrfolu6533_bot{}/getUpdates'.format(6494155343:AAGeOmiOn6s7gchaRRwkqnxvapSbkVoABbo)
     r = requests.get(url)
     x = 0
     while 1 :
