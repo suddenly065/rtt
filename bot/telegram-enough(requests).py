@@ -2,8 +2,8 @@ import requests
 from time import sleep
 from sms import SendSms
 
-token = ""
-sahip = ""
+token = "6494155343:AAGeOmiOn6s7gchaRRwkqnxvapSbkVoABbo"
+sahip = "Jrfolu6533_bot"
 
 
 def getUpdate():
