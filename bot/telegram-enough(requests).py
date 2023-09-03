@@ -7,7 +7,7 @@ sahip = "1285050582"
 
 
 def getUpdate():
-    url = 'https://api.telegram.org/bot6494155343:AAGeOmiOn6s7gchaRRwkqnxvapSbkVoABbo/getUpdates .format(token)
+    url = 'https://api.telegram.org/bot{}/getUpdates'.format(token)
     r = requests.get(url)
     x = 0
     while 1 :
@@ -18,7 +18,7 @@ def getUpdate():
             return (r.json()["result"][x-1]["message"]["chat"]["id"]), r.json()["result"][x-1]["message"]["text"], (r.json()["result"][x-1]["message"]["date"])
 
 def sendMessage(text, id):
-    requests.get(f"https://api.telegram.org/Jrfolu6533_bot:6494155343:AAGeOmiOn6s7gchaRRwkqnxvapSbkVoABbo/sendMessage?chat_id={id}&text=" + text, timeout=3)
+    requests.get(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=" + text, timeout=3)
     
 date_list = []
 while 1:
